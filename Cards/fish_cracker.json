@@ -1,6 +1,0 @@
-{
-  "$schema": "../schemas/card.schema.json",
-  "id": "sorryscards_fish_cracker",
-  "nameTerm": "sorryscard_fish_cracker_name",
-  "descriptionTerm": "sorryscards_fish_cracker_description"
-}
