@@ -5,6 +5,27 @@ using UnityEngine;
 
 namespace SorrysAdditionsNS
 {
+  // Cheese Processor
+public class CheeseProcessor : CardData
+{
+	public override bool DetermineCanHaveCardsWhenIsRoot => true;
+
+	public override bool CanHaveCardsWhileHasStatus()
+	{
+		return true;
+	}
+
+	protected override bool CanHaveCard(CardData otherCard)
+	{
+		if (otherCard.Id == "milk")
+		{
+			return true;
+		}
+		return base.CanHaveCard(otherCard);
+	}
+}
+
+
     // create a class called RedPanda which extends the Animal class
   public class RedPanda : Animal
   {
@@ -12,7 +33,7 @@ namespace SorrysAdditionsNS
     protected override bool CanHaveCard(CardData otherCard)
     {
       if (otherCard.Id == "apple")
-      return true; // if the other card is an apple, we will let it stack
+        return true; // if the other card is an apple, we will let it stack
       return base.CanHaveCard(otherCard); // otherwise, we will let Animal.CanHaveCard decide
     }
 

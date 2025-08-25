@@ -1,0 +1,10 @@
+{
+  "$schema": "../schemas/card.schema.json",
+  "id": "sorrysadditions_cheese_processor",
+  "nameTerm": "sorrysadditions_cheese_processor_name",
+  "descriptionTerm": "sorrysadditions_cheese_processor_description",
+  "icon": "berry",
+  "value": 5,
+  "type": "Structures",
+  "script": "Structures"
+}

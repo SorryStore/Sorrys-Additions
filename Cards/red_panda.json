@@ -6,13 +6,13 @@
   "type": "Mobs",
   "icon": "RedPanda.png",
   "value": -1,
-  "script": "Animal",
+  "script": "SorrysAdditionsNS.RedPanda",
   "_BaseCombatStats": {
     "MaxHealth": 10,
     "AttackDamage": 3,
     "AttackSpeed": 1,
     "Defence": 1,
-    "HitChance": 0.9
-  }
-
+    "HitChance": 0.9,
+    "SpecialHits": []
+  } 
 }
